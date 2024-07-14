@@ -1,0 +1,42 @@
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+}
+
+.grid-col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-col-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gap-8 {
+  gap: 0.8rem;
+}
+
+.gap-16 {
+  gap: 1.6rem;
+}
+
+.gap-24 {
+  gap: 2.4rem;
+}
+.gap-32 {
+  gap: 3.2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  align-items: center;
+}
+
+.flex-between {
+  justify-content: space-between;
+}

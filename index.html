@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant | Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/utility.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+    <script defer src="./js/script.js"></script>
+  </head>
+  <body>
+    <header class="header-section">
+      <div class="container">
+        <div class="header">
+          <div class="logo">Logo</div>
+          <nav class="nav-bar">
+            <ul class="nav-items">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="btn btn-primary">Book a table</button>
+          <button class="btn-mobile">
+            <img class="menu-icon" src="./images/menu.png" alt="menu" />
+            <img class="close-icon" src="./images/close.png" alt="cross" />
+          </button>
+        </div>
+      </div>
+      <nav class="nav-bar_mobile">
+        <ul class="nav-items_mobile">
+          <li class="nav-item_mobile">
+            <a class="nav-link_mobile" href="#">Menu</a>
+          </li>
+          <li class="nav-item_mobile">
+            <a class="nav-link_mobile" href="#">Events</a>
+          </li>
+          <li class="nav-item_mobile">
+            <a class="nav-link_mobile" href="#">Gallery</a>
+          </li>
+          <li class="nav-item_mobile">
+            <a class="nav-link_mobile" href="#">About</a>
+          </li>
+          <li class="nav-item_mobile">
+            <a class="nav-link_mobile" href="#">Contact</a>
+          </li>
+          <li class="nav-item_mobile">
+            <a class="nav-link_mobile" href="#">Book a table</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero-section">
+      <div class="container">
+        <!-- <header class="header">
+          <div class="logo">Logo</div>
+          <nav class="nav-bar">
+            <ul class="nav-items">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="btn btn-primary">Book a table</button>
+        </header> -->
+        <div class="hero grid grid-col-2 gap-8">
+          <div class="items-center">
+            <h1 class="heading-primary mb-32">
+              We provide the best food for you
+            </h1>
+            <p class="text mb-24">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+              ratione sed repellendus unde laboriosam fuga provident sunt
+              exercitationem quae recusandae.
+            </p>
+            <div class="btn-box mb-48">
+              <button class="btn btn-secondary">Menu</button>
+              <button class="btn btn-primary">Book a table</button>
+            </div>
+            <div class="icons">
+              <div class="icon-box">
+                <a href="#">
+                  <img class="icon" src="./images/twitter.png" alt="twitter" />
+                </a>
+              </div>
+              <div class="icon-box">
+                <a href="#">
+                  <img class="icon" src="./images/video.png" alt="twitter" />
+                </a>
+              </div>
+              <div class="icon-box">
+                <a href="#">
+                  <img class="icon" src="./images/facebook.png" alt="twitter" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="img-box">
+            <img class="hero-img" src="./images/hero 1.png" alt="hero image" />
+            <img
+              class="hero-img_side"
+              src="./images/hero-small 1.png"
+              alt="hero small image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dish-section">
+      <div class="container section">
+        <div class="dish-section_description mb-48">
+          <h2 class="heading-secondary mb-24 center">Our Special Dishes</h2>
+          <p class="text center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            aliquam ratione quam nemo mollitia non iure tenetur.
+          </p>
+        </div>
+        <div class="cards grid grid-col-4 gap-24">
+          <div class="card">
+            <p class="card-heading center mb-16">Lumpia with Suace</p>
+            <p class="text center">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              quisquam ullam, recusandae laborum alia.
+            </p>
+            <div class="card-img_box">
+              <img class="card-img" src="./images/dish-1.jpg" alt="dish-1" />
+              <div class="card-price_box">
+                <p class="card-price_text">$12</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <p class="card-heading center mb-16">Fish and Vaggie</p>
+            <p class="text center">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              quisquam ullam, recusandae laborum alia.
+            </p>
+            <div class="card-img_box">
+              <img class="card-img" src="./images/dish-2.png" alt="dish-1" />
+              <div class="card-price_box">
+                <p class="card-price_text">$12</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <p class="card-heading center mb-16">Tofu Chili</p>
+            <p class="text center">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              quisquam ullam, recusandae laborum alia.
+            </p>
+            <div class="card-img_box">
+              <img class="card-img" src="./images/dish-3.png" alt="dish-1" />
+              <div class="card-price_box">
+                <p class="card-price_text">$12</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <p class="card-heading center mb-16">Egg and Cocumber</p>
+            <p class="text center">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              quisquam ullam, recusandae laborum alia.
+            </p>
+            <div class="card-img_box">
+              <img class="card-img" src="./images/dish-4.png" alt="dish-1" />
+              <div class="card-price_box">
+                <p class="card-price_text">$12</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="restaurant-section">
+      <div class="container section">
+        <div class="grid grid-col-2 gap-32">
+          <div class="restaurant-img_box">
+            <img
+              class="restaurant-img"
+              src="./images/hero-small.png"
+              alt="dish with meal"
+            />
+          </div>
+          <div class="items-center">
+            <h1 class="heading-secondary mb-32">Welcome to Our Restaurant</h1>
+            <p class="text mb-24">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+              ratione sed repellendus unde laboriosam fuga provident sunt
+              exercitationem quae recusandae.
+            </p>
+            <div class="btn-box mb-48">
+              <button class="btn btn-secondary">Menu</button>
+              <button class="btn btn-primary">Book a table</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chef-section">
+      <div class="container section">
+        <div class="grid grid-col-2 gap-32">
+          <div class="items-center">
+            <h1 class="heading-secondary mb-32">Our Expert Chefs</h1>
+            <p class="text mb-24">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+              ratione sed repellendus unde laboriosam fuga provident sunt
+              exercitationem quae recusandae.
+            </p>
+            <div class="btn-box mb-48">
+              <button class="btn btn-secondary">Menu</button>
+              <button class="btn btn-primary">Book a table</button>
+            </div>
+          </div>
+
+          <div class="chef-img_box">
+            <img class="chef-img" src="./images/chef.jpg" alt="chef photo" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slider-section">
+      <div class="container section">
+        <div class="slider-description_box center pb-96">
+          <h2 class="heading-secondary center mb-24">Our Happy Customers</h2>
+          <p class="text width-50">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            excepturi illum ratione distinctio.
+          </p>
+        </div>
+        <div class="slider">
+          <div class="slide">
+            <div>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus accusamus rerum minima quam soluta natus, eveniet nihil
+                in repudiandae reiciendis velit! Optio suscipit eveniet unde
+                porro fugiat pariatur laboriosam voluptatum?
+              </p>
+
+              <div class="slider-img_box">
+                <img
+                  class="slider-img"
+                  src="./images/person-1.jpg"
+                  alt="user photo"
+                />
+
+                <div>
+                  <p class="text strong center">Ama Ampoma</p>
+                  <p class="text center">CEO & Founder Inc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus accusamus rerum minima quam soluta natus, eveniet nihil
+                in repudiandae reiciendis velit! Optio suscipit eveniet unde
+                porro fugiat pariatur laboriosam voluptatum?
+              </p>
+
+              <div class="slider-img_box">
+                <img
+                  class="slider-img"
+                  src="./images/person-2.jpg"
+                  alt="user photo"
+                />
+
+                <div>
+                  <p class="text strong center">Ama Ampoma</p>
+                  <p class="text center">CEO & Founder Inc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus accusamus rerum minima quam soluta natus, eveniet nihil
+                in repudiandae reiciendis velit! Optio suscipit eveniet unde
+                porro fugiat pariatur laboriosam voluptatum?
+              </p>
+
+              <div class="slider-img_box">
+                <img
+                  class="slider-img"
+                  src="./images/person-3.jpg"
+                  alt="user photo"
+                />
+
+                <div>
+                  <p class="text strong center">Ama Ampoma</p>
+                  <p class="text center">CEO & Founder Inc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus accusamus rerum minima quam soluta natus, eveniet nihil
+                in repudiandae reiciendis velit! Optio suscipit eveniet unde
+                porro fugiat pariatur laboriosam voluptatum?
+              </p>
+
+              <div class="slider-img_box">
+                <img
+                  class="slider-img"
+                  src="./images/person-4.jpg"
+                  alt="user photo"
+                />
+
+                <div>
+                  <p class="text strong center">Ama Ampoma</p>
+                  <p class="text center">CEO & Founder Inc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus accusamus rerum minima quam soluta natus, eveniet nihil
+                in repudiandae reiciendis velit! Optio suscipit eveniet unde
+                porro fugiat pariatur laboriosam voluptatum?
+              </p>
+
+              <div class="slider-img_box">
+                <img
+                  class="slider-img"
+                  src="./images/person-5.jpg"
+                  alt="user photo"
+                />
+
+                <div>
+                  <p class="text strong center">Ama Ampoma</p>
+                  <p class="text center">CEO & Founder Inc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="slider__btn slider__btn--left">
+            <img src="./images/left.png" alt="previous arrow" />
+          </button>
+          <button class="slider__btn slider__btn--right">
+            <img src="./images/next.png" alt="next arrow" />
+          </button>
+
+          <div class="dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-section">
+      <div class="container">
+        <div class="form-container mb-48">
+          <div class="form-container_inside">
+            <div class="form">
+              <h3 class="heading-tertiary mb-32">
+                Get or Promo Code by Subscription To our Newslatter
+              </h3>
+              <input
+                class="form-input"
+                type="email"
+                placeholder="Enter your email"
+              />
+              <button class="form-btn">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="grid footer-grid mb-48 gap-8">
+            <div>
+              <div class="logo mb-16">Logo</div>
+              <p class="text mb-24">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo,
+                blanditiis sed voluptates mollitia ipsum voluptatem.<a
+                  class="link"
+                  href="#"
+                  >Learn more</a
+                >
+              </p>
+              <p class="footer-heading mb-8">Opening Hours</p>
+              <div class="footer-date_box">
+                <div class="footer-date">
+                  <p class="text">Monday - Friday</p>
+                  <p class="text">
+                    <strong>8.00</strong> am to <strong>9.00</strong> pm
+                  </p>
+                </div>
+                <div class="footer-date">
+                  <p class="text">Saturday</p>
+                  <p class="text">
+                    <strong>8.00</strong> am to <strong>9.00</strong> pm
+                  </p>
+                </div>
+                <div class="footer-date">
+                  <p class="text">Sunday</p>
+                  <p class="text-upper text">closed</p>
+                </div>
+              </div>
+            </div>
+            <div class="footer-nav_box">
+              <div>
+                <p class="footer-heading text-upper mb-16">navigation</p>
+                <ul class="footer-nav_items">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-nav_box">
+              <div>
+                <p class="footer-heading text-upper mb-16">dishes</p>
+                <ul class="footer-nav_items">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Fish & Viggies</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Tofu Chili</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Egg & Cocumber</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Lumpia Sauce</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer-nav_box">
+              <div>
+                <p class="footer-heading text-upper mb-16">follow us</p>
+                <div class="icons">
+                  <div class="icon-box">
+                    <a href="#">
+                      <img
+                        class="icon"
+                        src="./images/twitter.png"
+                        alt="twitter"
+                      />
+                    </a>
+                  </div>
+                  <div class="icon-box">
+                    <a href="#">
+                      <img
+                        class="icon"
+                        src="./images/video.png"
+                        alt="twitter"
+                      />
+                    </a>
+                  </div>
+                  <div class="icon-box">
+                    <a href="#">
+                      <img
+                        class="icon"
+                        src="./images/facebook.png"
+                        alt="twitter"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="line mb-24"></div>
+          <div class="flex flex-between">
+            <div>
+              <p class="copy">&copy; 2024 Restaurants. All Right Reserved</p>
+            </div>
+            <div class="flex gap-24">
+              <p class="copy">Terms of Service</p>
+              <p class="copy">Privacy Policy</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>

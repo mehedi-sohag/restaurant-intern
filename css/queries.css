@@ -1,0 +1,466 @@
+@media (min-width: 944px) and (max-width: 1199.99px) {
+  html {
+    font-size: 56.25%;
+  }
+  .container {
+    max-width: 114rem;
+    margin: 0 auto;
+  }
+  .btn-mobile {
+    display: none;
+  }
+  .nav-bar_mobile {
+    display: none;
+  }
+  .hero-section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .nav-items {
+    gap: 2.7rem;
+  }
+
+  .icon-box {
+    width: 40px;
+    height: 40px;
+  }
+
+  .dish-section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .card {
+    padding: 6.5rem 1rem 1.8rem 1rem;
+  }
+
+  .card-img {
+    max-width: 80%;
+  }
+
+  .gap-24 {
+    gap: 1.8rem;
+  }
+  .card-price_box {
+    left: 135px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .restaurant-section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .restaurant-img {
+    max-width: 90%;
+  }
+  .chef-section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .chef-img {
+    max-width: 75%;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+  }
+
+  .slider {
+    max-width: 80%;
+  }
+  .footer-section {
+    padding: 30rem 3rem 8.9rem 3rem;
+    background-color: #f5fffa;
+  }
+  .form-container_inside {
+    max-width: 60%;
+  }
+  .form-btn {
+    right: 130px;
+    top: 109px;
+  }
+}
+
+@media (min-width: 704px) and (max-width: 943.99px) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    max-width: 100rem;
+    margin: 0 auto;
+  }
+  .btn {
+    display: none;
+  }
+  .nav-bar {
+    display: none;
+  }
+
+  .hero-section {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .grid-col-2 {
+    grid-template-columns: 1fr;
+  }
+  .grid-col-4 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .items-center {
+    width: 70%;
+  }
+  .icon-box {
+    width: 40px;
+    height: 40px;
+  }
+  .img-box {
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-img {
+    max-width: 50%;
+    border-radius: 1.6rem;
+  }
+  .gap-8 {
+    gap: 9rem;
+  }
+  .hero-img_side {
+    position: absolute;
+    top: 45%;
+    left: 80px;
+    max-width: 35%;
+  }
+  .dish-section {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .gap-24 {
+    row-gap: 24rem;
+    column-gap: 4.8rem;
+  }
+  .card-img_box {
+    position: absolute;
+    top: -121px;
+    left: 23%;
+    width: 190px;
+    height: 190px;
+  }
+
+  .restaurant-section {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .restaurant-img_box {
+    overflow: hidden;
+    order: 2;
+  }
+  .restaurant-img {
+    max-width: 60%;
+  }
+  .chef-section {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .chef-img_box {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .chef-img {
+    max-width: 50%;
+    border-radius: 1.6rem;
+  }
+  .slider-section {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .slider {
+    max-width: 90%;
+  }
+  .footer-section {
+    padding: 30rem 3rem 8.9rem 3rem;
+    background-color: #f5fffa;
+  }
+  .form-container_inside {
+    max-width: 60%;
+  }
+  .form-btn {
+    right: 100px;
+    top: 97px;
+  }
+}
+
+@media (min-width: 544px) and (max-width: 703.99px) {
+  html {
+    font-size: 43.75%;
+  }
+  .container {
+    max-width: 90rem;
+    margin: 0 auto;
+  }
+  .btn {
+    display: none;
+  }
+  .nav-bar {
+    display: none;
+  }
+
+  .hero-section {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+
+  .grid-col-2 {
+    grid-template-columns: 1fr;
+  }
+  .grid-col-4 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .items-center {
+    width: 75%;
+  }
+  .icon-box {
+    width: 40px;
+    height: 40px;
+  }
+  .img-box {
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-img {
+    max-width: 50%;
+    border-radius: 1.6rem;
+  }
+  .gap-8 {
+    gap: 9rem;
+  }
+  .hero-img_side {
+    position: absolute;
+    top: 45%;
+    left: 30px;
+    max-width: 35%;
+  }
+  .dish-section {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+  .dish-section_description {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  .mb-48 {
+    margin-bottom: 7rem;
+  }
+  .gap-24 {
+    row-gap: 20rem;
+    column-gap: 3.5rem;
+  }
+  .card-img_box {
+    position: absolute;
+    top: -90px;
+    left: 18%;
+    width: 150px;
+    height: 150px;
+  }
+  .card-price_box {
+    width: 40px;
+    height: 40px;
+    left: 0;
+    top: 0;
+  }
+
+  .restaurant-section {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+  .restaurant-img_box {
+    overflow: hidden;
+    order: 2;
+  }
+  .restaurant-img {
+    max-width: 60%;
+  }
+  .chef-section {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+  .chef-img_box {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .chef-img {
+    max-width: 55%;
+    border-radius: 1.6rem;
+  }
+  .slider-section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .slider {
+    max-width: 90%;
+  }
+  .slide {
+    padding: 9.6rem 6.5rem 2.4rem 6.5rem;
+  }
+  .footer-section {
+    padding: 30rem 4.5rem 8.9rem 4.5rem;
+    background-color: #f5fffa;
+  }
+  .form-container_inside {
+    max-width: 85%;
+  }
+  .form-btn {
+    right: 88px;
+    top: 85px;
+  }
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-nav_box {
+    justify-self: start;
+  }
+}
+
+@media (max-width: 543.99px) {
+  html {
+    font-size: 37.5%;
+  }
+  .container {
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+
+  .btn {
+    display: none;
+  }
+  .nav-bar {
+    display: none;
+  }
+
+  .hero-section {
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+  }
+
+  .grid-col-2 {
+    grid-template-columns: 1fr;
+  }
+  .grid-col-4 {
+    grid-template-columns: 1fr;
+  }
+  .items-center {
+    width: 90%;
+  }
+  .icon-box {
+    width: 40px;
+    height: 40px;
+  }
+  .img-box {
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-img {
+    max-width: 65%;
+    border-radius: 1.6rem;
+  }
+  .gap-8 {
+    gap: 9rem;
+  }
+  .hero-img_side {
+    position: absolute;
+    top: 55%;
+    left: 22px;
+    max-width: 35%;
+  }
+  .dish-section {
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+  }
+  .dish-section_description {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .mb-48 {
+    margin-bottom: 7rem;
+  }
+  .gap-24 {
+    row-gap: 20rem;
+    column-gap: 3.5rem;
+  }
+  .card-img_box {
+    position: absolute;
+    top: -90px;
+    left: 26%;
+    width: 130px;
+    height: 130px;
+  }
+  .card-price_box {
+    width: 40px;
+    height: 40px;
+    left: 0;
+    top: 0;
+  }
+
+  .restaurant-section {
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+  }
+  .restaurant-img_box {
+    overflow: hidden;
+    order: 2;
+  }
+  .restaurant-img {
+    max-width: 70%;
+  }
+  .chef-section {
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+  }
+  .chef-img_box {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .chef-img {
+    max-width: 65%;
+    border-radius: 1.6rem;
+  }
+  .slider-section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .slider {
+    max-width: 95%;
+  }
+  .slide {
+    padding: 9.6rem 3.2rem 2.4rem 3.2rem;
+  }
+  .footer-section {
+    padding: 30rem 5.5rem 8.9rem 5.5rem;
+    background-color: #f5fffa;
+  }
+  .form-container_inside {
+    max-width: 90%;
+  }
+  .form-btn {
+    right: 68px;
+    top: 97px;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer-nav_box {
+    justify-self: start;
+  }
+  .gap-8 {
+    gap: 4.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn-mobile {
+    display: none;
+  }
+}
